@@ -1,0 +1,153 @@
+ul{
+    list-style-type: none;
+    padding:0;
+   margin:0;
+    overflow:hidden;
+    background-color: black;
+    
+}
+.nav{
+    
+    border-bottom: 1px grey solid;
+    position: fixed;
+    top:0;
+    width:100%;
+    left:0;
+    font-family: verdana;
+}
+.nav li{
+    display:inline;
+    margin:5px;
+    float:left;
+    
+}
+li a{
+    display:block;
+    text-decoration: none;
+    color: white;
+    padding:14px 16px;
+    font-size: 150%;
+}
+li a:hover{
+    transform:scale(1.15);
+    color:grey;
+}
+.head{
+    text-align: center;
+    color:white;
+    font-size:120%;
+    font-family:bahnschrift
+    
+}
+.description{
+      float:left;
+    width:50%;
+    box-sizing: border-box;
+    color:white;
+    padding:10px;
+    padding-left: 100px;
+    font-family: arial;
+}
+.clg{
+    float:right;
+    width:50%;
+    box-sizing: border-box;
+    padding-left:150px;
+    transition: transform .5s;
+}
+.clg img:hover{
+    transform:scale(1.1);
+    
+}
+body{
+    background-image: url(home.jpg);
+    margin:0;
+    padding:0;
+    
+}
+
+.cd{
+    float:right;
+    width:50%;
+     box-sizing: border-box;
+    padding:70px;
+    padding-left: 100px;
+    color:#ffff66;
+    font-size:130%;
+    
+}
+#top{
+    position: relative;
+    top: 0px;
+}
+.outer{
+    padding-top: 65px;
+}
+p{
+    font-family: cursive;
+}
+
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgb(0, 0, 0);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+    pointer-events: none;
+    
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 70%;
+	position: relative;
+	margin: 10% auto;
+	padding: 20px 20px 13px 10%;
+	border-radius: 10px;
+	background: black;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+    background-image: url(modal.jpg);
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: red; }
+h2{
+    font-family:'Fontdiner Swanky', cursive;
+    font-size:250%;
+    text-align:left;
+    margin-left:30%;
+    color:white;
+    
+}
