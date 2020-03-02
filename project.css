@@ -154,5 +154,9 @@ h2{
 
 #DBLink{
 	font: cursive;
-	color: red;
+	color: #ffffff;
+}
+
+h6{
+	color: #ffffff;
 }
